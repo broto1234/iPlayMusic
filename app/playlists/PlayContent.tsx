@@ -15,7 +15,7 @@ function PlayContent({ albums }: PlayContentProps) {
   const [tracks, setTracks] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedAlbumId, setSelectedAlbumId] = useState<string | null>(null);
-  const [selectedTrack, setSelectedTrack] = useState(null);
+  const [selectedTrack, setSelectedTrack] = useState<any | null>(null);
 
   console.log("selected tracks:", tracks);
 
