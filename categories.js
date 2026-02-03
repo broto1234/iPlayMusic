@@ -1,0 +1,105 @@
+export const categories = [
+  {
+    title: "Alternative",
+    color: "bg-pink-600",
+    children: [
+      "Indie Rock",
+      "Alternative Pop",
+      "Grunge",
+      "Post-Rock",
+      "Shoegaze",
+      "Lo-Fi",
+    ],
+  },
+  {
+    title: "Blues",
+    color: "bg-red-600",
+    children: [
+      "Acoustic Blues",
+      "Blues Rock",
+      "Canadian Blues",
+      "Jazz Blues",
+      "Piano Blues",
+      "Soul Blues",
+      "Swamp Blues",
+    ],
+  },
+  {
+    title: "Classical",
+    color: "bg-orange-500",
+    children: [
+      "Baroque",
+      "Romantic",
+      "Contemporary",
+      "Opera",
+      "Chamber Music",
+      "Symphony",
+    ],
+  },
+  {
+    title: "Country",
+    color: "bg-yellow-400 text-black",
+    children: [
+      "Classic Country",
+      "Outlaw Country",
+      "Country Pop",
+      "Bluegrass",
+      "Americana",
+    ],
+  },
+  {
+    title: "Dance",
+    color: "bg-lime-500 text-black",
+    children: [
+      "House",
+      "Techno",
+      "Trance",
+      "Drum & Bass",
+      "Dubstep",
+    ],
+  },
+  {
+    title: "Electronic",
+    color: "bg-green-700",
+    children: [
+      "Ambient",
+      "IDM",
+      "Synthwave",
+      "Downtempo",
+      "Electronica",
+    ],
+  },
+  {
+    title: "Fitness & Workout",
+    color: "bg-teal-400",
+    children: [
+      "Cardio",
+      "HIIT",
+      "Running",
+      "Yoga",
+      "Cycling",
+    ],
+  },
+  {
+    title: "Hip-Hop/Rap",
+    color: "bg-sky-600",
+    children: [
+      "Old School",
+      "Trap",
+      "Boom Bap",
+      "Conscious Rap",
+      "Alternative Hip-Hop",
+    ],
+  },
+  {
+    title: "Industrial",
+    color: "bg-blue-800",
+    children: [
+      "EBM",
+      "Industrial Rock",
+      "Aggrotech",
+      "Darkwave",
+      "Noise",
+    ],
+  },
+];
